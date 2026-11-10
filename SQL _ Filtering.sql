@@ -1,14 +1,3 @@
-
--- Task -- Query 6: Mid-range products
-SELECT product_name, unit_price
-FROM products
-WHERE unit_price BETWEEN 20 AND 30
-ORDER BY unit_price ASC, product_name ASC;: SQL Filtering Practice
--- Dataset: Northwind
--- Tool: Online SQL Playground
--- Database: PostgreSQL
-
-
 -- Query 1: WHERE Operator
 -- Display company names and cities of customers from Germany
 
